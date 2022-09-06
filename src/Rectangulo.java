@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Rectangulo {
     
     int base, altura, area;
@@ -17,6 +15,5 @@ public class Rectangulo {
         CalculoArea();
         System.out.println("El área del rectángulo es: " + area);
     }
-
     
 }

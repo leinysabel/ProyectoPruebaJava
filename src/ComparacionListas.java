@@ -36,5 +36,6 @@ public class ComparacionListas {
         for (int i = 0; i < c.length; i++) {
             System.out.print(c[i] + ", ");
         }
+        entrada.close();
     }
 }

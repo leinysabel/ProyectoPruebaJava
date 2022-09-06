@@ -13,5 +13,6 @@ public class RectanguloMain {
         Rectangulo area = new Rectangulo(base, altura);
         area.imprimir();
 
+        entrada.close();
     }
 }
