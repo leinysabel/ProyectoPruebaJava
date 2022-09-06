@@ -12,7 +12,6 @@ public class ComparacionListas {
         c = new int[20];
 
         System.out.println("Ingresa el primer arreglo: ");
-        int r = 0;
         for (int index = 0; index < a.length; index++) {
             System.out.print((index+1) + ". Ingresa el nodo: ");
             a[index] = entrada.nextInt();
