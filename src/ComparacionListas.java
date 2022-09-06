@@ -14,18 +14,27 @@ public class ComparacionListas {
         System.out.println("Ingresa el primer arreglo: ");
         int r = 0;
         for (int index = 0; index < a.length; index++) {
-            System.out.println("Ingresa el nodo #: " + index+1);
+            System.out.print((index+1) + ". Ingresa el nodo: ");
             a[index] = entrada.nextInt();
-            r = index++;
-            System.out.println("Elemento # " + r + ":" + a[index]);
         }
 
-        System.out.println("Ingresa el segundo arreglo: ");
+        System.out.println(" \n Ingresa el segundo arreglo: ");
         for (int index = 0; index < b.length; index++) {
-            System.out.println("Ingresa el nodo #: " + index+1);
+            System.out.print((index+1) + ". Ingresa el nodo: ");
             b[index] = entrada.nextInt();
-            System.out.println("Elemento # " + (index +1) + ":" + b[index]);
         }
 
+        int j = 0;
+        for (int i = 0; i < 10; i++) {
+            c[j] = a[i];
+            j++;
+            c[j] = b[i];
+            j++;
+        }
+
+        System.out.println("El arreglo mezclado es: ");
+        for (int i = 0; i < c.length; i++) {
+            System.out.print(c[i] + ", ");
+        }
     }
 }
